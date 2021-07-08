@@ -63,6 +63,10 @@ const CakeStats = () => {
           <Text fontSize="14px">{TranslateString(540, 'New EGG/block')}</Text>
           <Text bold fontSize="14px">{OwlPerBlock}</Text>
         </Row>
+		<Row>
+          <Text fontSize="14px">{TranslateString(541, 'Total Supply')}</Text>
+          <Text bold fontSize="14px">10000</Text>
+        </Row>
       </CardBody>
     </StyledCakeStats>
   )
