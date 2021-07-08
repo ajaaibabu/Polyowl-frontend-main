@@ -5,12 +5,12 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'OWL-USDC LP',
+    lpSymbol: 'Pheonix-USDC LP',
     decimal: 18,
     lpAddresses: {
       137: '0xcf509cbde7ffaa1d90512a9567be5f9d5a59046a',
     },
-    tokenSymbol: 'OWL',
+    tokenSymbol: 'Pheonix',
     tokenAddresses: {
       137: '0xc7553307eD737dcE132aE7915E6496864617B261',
     },
@@ -20,7 +20,7 @@ const farms: FarmConfig[] = [
   {
     pid: 3,
     risk: 5,
-    lpSymbol: 'OWL-WMATIC LP',
+    lpSymbol: 'Pheonix-WMATIC LP',
     decimal: 18,
     lpAddresses: {
       137: '0xf0c5c573e89fa9cd298a05e174c4a75e94a478fb',
@@ -84,12 +84,12 @@ const farms: FarmConfig[] = [
     pid: 1,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'OWL',
+    lpSymbol: 'Pheonix',
     decimal: 18,
     lpAddresses: {
       137: '0xcf509cbde7ffaa1d90512a9567be5f9d5a59046a'
     },
-    tokenSymbol: 'OWL',
+    tokenSymbol: 'Pheonix',
     tokenAddresses: {
       137: '0xc7553307eD737dcE132aE7915E6496864617B261'
     },
